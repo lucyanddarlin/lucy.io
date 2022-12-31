@@ -1,7 +1,7 @@
 <template>
   <header class="mt-12 md:mt-18">
     <h1 class="title text-5xl font-bold">
-      <span class="block">Hello</span>
+      <span class="block">Hello,</span>
       <span class="block mt-2">I'm LucY.</span>
     </h1>
     <div mt-6>
