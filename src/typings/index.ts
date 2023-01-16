@@ -12,9 +12,47 @@ export interface IProjectItem {
   icon: string
 }
 
-export interface PostMeta {
-  id?: string
+export interface IPostMeta {
+  id: number
   title: string
-  url: string
-  published_at: number
+  content: string
+  desc: string
+  visibility: boolean
+  slug: string
+  createdAt: Date
+  updatedAt: Date
+  publishedAt: Date
+  cover: Cover
+  categories: Categories
+}
+
+export interface Cover {
+  data?: any
+}
+
+export interface Categories {
+  data: {
+    id: number
+    attributes: {
+      name: string
+      slug: string
+      createdAt: Date
+      updatedAt: Date
+      publishedAt: Date
+    }
+  }[]
+}
+
+export interface IPost {
+  id: number
+  attributes: Omit<IPostMeta, 'id'>
+}
+
+export interface IMeta {
+  pagination: {
+    page: number
+    pageSize: number
+    pageCount: number
+    total: number
+  }
 }

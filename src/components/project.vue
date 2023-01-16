@@ -19,9 +19,9 @@ import type { IProjectItem } from '@/typings'
 
 const projectList: IProjectItem[] = [
   {
-    name: 'Music Player with vue3',
-    desc: 'study project with vue3 ts etc',
-    link: 'https://github.com/lucyanddarlin/vue3_musicPlayer',
+    name: 'Mini-vue',
+    desc: 'generate mini-vue production',
+    link: '',
     icon: 'i-fluent-emoji-flat:musical-keyboard',
   },
   {

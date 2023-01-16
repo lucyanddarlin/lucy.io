@@ -20,7 +20,7 @@ const socialsList: ISocialsItem[] = [
   },
   {
     text: 'Blog',
-    link: '',
+    link: 'https://notes.lucys.space/',
     icon: 'i-ri-book-2-line',
     class: 'hover:bg-gray-700 dark:hover:bg-white dark:hover:text-gray-900',
   },
