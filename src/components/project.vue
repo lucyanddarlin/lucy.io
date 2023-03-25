@@ -21,7 +21,7 @@ const projectList: IProjectItem[] = [
   {
     name: 'Mini-vue',
     desc: 'generate mini-vue production',
-    link: '',
+    link: 'https://github.com/lucyanddarlin/setup-mini-vue',
     icon: 'i-fluent-emoji-flat:musical-keyboard',
   },
   {
